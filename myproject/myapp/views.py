@@ -45,3 +45,4 @@ def addteam(request):
            
             return HttpResponse('Error')
     return render(request,'addteam.html',{'team':team})
+
